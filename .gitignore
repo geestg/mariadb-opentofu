@@ -1,0 +1,19 @@
+# Direktori internal OpenTofu/Terraform
+.terraform/
+
+# File state dan backup
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+
+# Log file
+crash.log
+
+# File sensitif
+*.pem
+*.key
+*.json
+
+# Temporary files
+*.tmp
+*.log
